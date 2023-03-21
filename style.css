@@ -1,0 +1,39 @@
+body{
+    background: rgb(168, 216, 214);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+#calculate{
+    cursor: pointer;
+}
+
+@media(max-width: 550px){
+    body, input, button{
+        font-size: 17px;
+    }
+}
